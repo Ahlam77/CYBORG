@@ -1,0 +1,14 @@
+
+.most-popular-items{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.prim-btn{
+   text-align: center;
+   font-weight: 400;
+   letter-spacing: 0.5px;
+   position: relative;
+   padding: 20px ;
+      
+}

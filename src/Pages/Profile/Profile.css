@@ -1,0 +1,73 @@
+.main-profile {
+    padding: 10px;
+    background-color: var(--color-darkest);
+}
+
+.main-profile .main-info span {
+    font-size: 14px;
+    color: var(--color-light);
+    background-color: var(
+        --color-primary
+    );
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+.main-profile .main-info h4 {
+    margin-bottom: 20px;
+}
+
+.main-profile ul {
+    border-radius: 23px;
+    padding: 30px;
+    background-color: var(--color-dark);
+}
+
+.main-profile ul li {
+    width: 100%;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #666;
+}
+
+.main-profile ul li span {
+    float: right;
+    font-weight: 500;
+    color:var(--color-primary);
+}
+
+.main-profile ul li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.main-profile .main-info h4 {
+    margin-bottom: 20px;
+}
+
+.main-profile .main-info .main-border-button {
+    margin-top: 25px;
+}
+
+.main-border-button a {
+    font-size: 14px;
+    color: var(--color-primary);
+    background-color: transparent;
+    border: 1px solid var(--color-primary);
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+}
